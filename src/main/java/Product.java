@@ -55,7 +55,6 @@ public class Product {
         this.price = price;
     }
 
-    public void addAssociatedPart(Part part)
 
     public ObservableList<Part> getAllAssociatedParts() {
         return associatedParts;
